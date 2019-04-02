@@ -1,0 +1,19 @@
+.bookContainer{
+    display: flex;
+    flex-direction: row;
+    border:1px solid white;
+    align-items:center;
+    justify-content: space-between;
+    height:35px;
+    width:950px;
+}
+.bookname{
+    margin-left:20px;
+}
+.bookname:hover{
+    cursor: pointer;
+    color: #ccd5ff;
+}
+.author{
+    margin-left: 50px;
+}
